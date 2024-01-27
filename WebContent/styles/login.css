@@ -1,0 +1,12 @@
+.card{
+	height: 100% !important;
+}
+.card-body{
+	height: 100%;
+	flex-direction: column;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.form-label{
+	font-weight: bold!important;
+}
