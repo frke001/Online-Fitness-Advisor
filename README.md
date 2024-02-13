@@ -1,6 +1,6 @@
 # OnlineFitness - Advisor Application (Dynamic Web Project with JSP)
 
-This project is a dynamic web application developed using JSP (JavaServer Pages) technology. It serves as the backend for the OnlineFitness system, providing various functionalities implemented through packages such as bean, dao, mysql, and util.
+This project is a dynamic web application developed using JSP (JavaServer Pages) technology. It serves as the Advisor Application for the OnlineFitness system, providing communication between users and advisors for selecting fitness programs and providing support. Users can send messages to advisors, who can respond via email
 
 ## Project Structure
 
