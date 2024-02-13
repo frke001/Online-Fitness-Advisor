@@ -4,12 +4,18 @@ This project is a dynamic web application developed using JSP (JavaServer Pages)
 
 ## Project Structure
 
-- **bean**: This package contains Java beans (POJOs) representing entities or data transfer objects used in the application.
-- **dao**: Data Access Object (DAO) package contains interfaces for database access using the DAO design pattern.
+- **dto**: This package contains Data Transfer Objects (DTOs) used for communication between different layers of the application.
+- **beans**: This package contains Plain Old Java Objects (POJOs) representing entities or data objects used in the application for data manipulation.
+- **dao**: Data Access Object (DAO) package contains interfaces and implementations for database access using the DAO design pattern.
 - **mysql**: MySQL package contains implementations of DAO interfaces for MySQL database interaction.
 - **util**: Util package contains utility classes, including database connection utilities for connecting to the MySQL database.
-- **web**: This package may contain servlets, filters, and other web-related components.
-- **resources**: Configuration files such as web.xml for configuring servlets and other web-related settings.
+- **web**: This package contains resources related to the web interface of the application.
+  - **WebContent**: Directory for web resources.
+    - **images**: Directory for image files used in the application.
+    - **styles**: Directory for CSS files used in the application.
+    - **js**: Directory for JavaScript files used in the application.
+    - **WEB-INF/web.xml**: Configuration file for the web application.
+
 
 ## Running the Application
 
@@ -25,11 +31,11 @@ This project can be built using Apache Ant. Run the appropriate Ant targets to c
 
 ## Database Configuration
 
-Ensure that MySQL is installed and running on your system. Update the database connection properties in the application's configuration files to match your MySQL configuration.
+Ensure that MySQL is installed and running on your system. Update the database connection properties in the util/ConnectionPool.properties file to match your MySQL configuration.
 
 ## GUI Development
 
-The GUI for this application is developed using JSP (JavaServer Pages). JSP files can be found in the `WebContent` directory. Customize these files to modify the user interface according to your requirements.
+The GUI for this application is developed using JSP (JavaServer Pages), and Bootstrap framework is utilized for styling. JSP files can be found in the `WebContent` directory, where you can customize these files to modify the user interface according to your requirements. Bootstrap CSS and JavaScript files are located in the `bootstrap` directory within `WebContent`, providing a responsive and visually appealing design for the application.
 
 ## Additional Information
 
@@ -38,7 +44,8 @@ For more information about JSP, servlets, and MySQL, refer to the official docum
 - [Servlets Documentation](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/package-summary.html)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 
-## Future Improvements
+## Application Screenshots
 
-Consider implementing additional features such as user authentication, session management, input validation, and error handling to enhance the functionality and security of the application.
+![image](https://github.com/frke001/Task-scheduler-and-parallel-processing-of-multimedia-data/assets/93668747/a92a9a90-5f90-460a-a57d-8fbeae5428ec)
+![image](https://github.com/frke001/Task-scheduler-and-parallel-processing-of-multimedia-data/assets/93668747/589c3d48-117e-4eee-bc1d-9291fb137b6a)
 
